@@ -39,7 +39,6 @@ export default function Board() {
         return null;
     }
 
-
     return (
         <div className="board">
             {squares.map((square, index) => (
